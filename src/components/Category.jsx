@@ -26,7 +26,7 @@ function Category({ category }) {
     >
       <div
         style={{
-          backgroundImage: `url("src/assets/${category}.png")`,
+          backgroundImage: `url("./src/assets/${category}.png")`,
           backgroundSize: "cover",
         }}
         className="w-20 h-20 rounded-full"
