@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../context/AppContext";
 
+
 function Category({ category }) {
   const { setSelectedCategory, selectedCategory } = useContext(AppContext);
   function onSelection() {
